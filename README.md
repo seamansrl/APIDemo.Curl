@@ -11,18 +11,12 @@ curl -H "Content-Type: application/json" --data "{\"user\":\"ACA TU USUARIO HORU
 Obtendremos como respuesta:
 
 ```
-{
-"global" :
-    {
-     "data" : [
-         {
-         "code" : "200",
-         "token" : "jmGyTRbd7tMmoR7vasORDkFR9vbNeb/Z44JPfrwSqhH2VXsyP4damgBOyBEyHKjiSoXGHXI4Fei8EOb2B++5WWwYvTeU4BfiJWzYXq3rwnmPATN0tXs2ug+v1IRPrbRBHGvC5PdVBAHy3U=",
-         "instance" : "b0bb3e88531511eaac4g90155d714f00"
-         }
-      ]
-    }
-}
+ {
+ "code" : "200",
+ "token" : "jmGyTRbd7tMmoR7vasORDkFR9vbNeb/Z44JPfrwSqhH2VXsyP4damgBOyBEyHKjiSoXGHXI4Fei8EOb2B++5WWwYvTeU4BfiJWzYXq3rwnmPATN0tXs2ug+v1IRPrbRBHGvC5PdVBAHy3U=",
+ "instance" : "b0bb3e88531511eaac4g90155d714f00"
+ }
+
 ```
 
 # Decodificar una imagen
@@ -34,18 +28,7 @@ curl -H "Authorization: Bearer ACA VA EL TOKEN" -H "Content-Type: multipart/form
 Obtendremos como respuesta:
 
 ```
-{
-"global" :
-    {
-     "data" : [
-         {
-         "code" : "200",
-         "token" : "jmGyTRbd7tMmoR7vasORDkFR9vbNeb/Z44JPfrwSqhH2VXsyP4damgBOyBEyHKjiSoXGHXI4Fei8EOb2B++5WWwYvTeU4BfiJWzYXq3rwnmPATN0tXs2ug+v1IRPrbRBHGvC5PdVBAHy3U=",
-         "instance" : "b0bb3e88531511eaac4g90155d714f00"
-         }
-      ]
-    }
-}
+
 ```
 
 Podemos con esto usar jq en linux BASH para decodificar el JSON y automatizar las consultas segun lo comentado en el presente link:
