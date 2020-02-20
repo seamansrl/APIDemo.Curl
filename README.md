@@ -28,7 +28,17 @@ curl -H "Authorization: Bearer ACA VA EL TOKEN" -H "Content-Type: multipart/form
 Obtendremos como respuesta:
 
 ```
-
+{
+ "code" : "200",
+ "value" : "ok",
+ "y1" : "0.1784841075794621",
+ "x1" : "0.2234513274336283",
+ "y2" : "0.8117359413202934",
+ "x2" : "0.7986725663716814",
+ "detected_id" : "BEGIN:VCARD  VERSION:3.0  N:Stan NICKNAME:Smith SOUND:Stan Smith TEL:+7 (978) 571-91-44 TEL-AV: EMAIL:web.marshal.ru@gmail.com ADR:home BDAY: TITLE: ORG: URL: NOTE:  END:VCARD" (QRCODE)",
+ "vector_id" : "0",
+ "confidence" : "0.00"
+}
 ```
 
 Podemos con esto usar jq en linux BASH para decodificar el JSON y automatizar las consultas segun lo comentado en el presente link:
