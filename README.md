@@ -47,8 +47,6 @@ https://stedolan.github.io/jq/tutorial/
 
 # Dentro de las funciones de la API podemos encontrar:
 
-El Proyecto Horus consiste en una API REST que permite de forma simple identificar imagenes via redes neuronales.
-
 - FACE ID
 - OBJECT DETECTION
 - QR DECODER
